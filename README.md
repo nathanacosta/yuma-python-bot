@@ -1,17 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** nathanacosta, yuma-python-bot, twitter_handle, acostanathan@email.arizona.edu, project_title, project_description
--->
-
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -20,12 +6,6 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -54,15 +34,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![UA Yuma Site][product-screenshot]](images/demo_desktop.gif)
-[![UA Yuma Mobile Site][product-demo]](images/demo_mobile.gif)
-[![UA Yuma Wallpapers][product-demos]](images/demo_wallpapers.gif)
+![UA Yuma Site](./images/demo_desktop.gif)
+![UA Yuma Mobile Site](./images/demo_mobile.gif)
+![UA Yuma Wallpers](./images/demo_wallpapers.gif)
 
 ### Built With
 
-* [LAMP - (Linux, Apache, MySQL, PHP)]()
-* [Selenium]()
-* [Wordpress]()
+* [LAMP - (Linux, Apache, MySQL, PHP)](https://en.wikipedia.org/wiki/LAMP_(software_bundle)  )
+* [Selenium](https://www.selenium.dev/)
+* [Wordpress](https://wordpress.com/)
 
 
 
@@ -129,7 +109,7 @@ After executing the bot will run on an infinite loop and we can exit the screen 
 
 _Executing inside virtual enviroment_
 
-[![Bot Running][script-demo]](images/demo_script.gif)
+![Bot Running](./images/demo_script.gif)
 
 
 
@@ -155,4 +135,4 @@ Project Link: [https://github.com/nathanacosta/yuma-python-bot](https://github.c
 [license-shield]: https://img.shields.io/github/license/nathanacosta/repo.svg?style=for-the-badge
 [license-url]: https://github.com/nathanacosta/repo/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/nathanacosta
+[linkedin-url]: https://linkedin.com/in/acosta-nathan
