@@ -1,0 +1,31 @@
+SELECT entry_id,
+
+MAX(CASE
+WHEN meta_key = "name-1" THEN meta_value ELSE '' END) as 'first_name',
+
+MAX(CASE
+WHEN meta_key = "name-2" THEN meta_value ELSE '' END) as 'last_name',
+
+MAX(CASE
+WHEN meta_key = "email-1" THEN meta_value ELSE '' END) as 'email',
+
+MAX(CASE
+WHEN meta_key = "phone-1" THEN meta_value ELSE '' END) as 'phone',
+
+MAX(CASE
+WHEN meta_key = "select-1" THEN meta_value ELSE '' END) as 'semester',
+
+MAX(CASE
+WHEN meta_key = "select-2" THEN meta_value ELSE '' END) as 'program',
+
+MAX(CASE
+WHEN meta_key = "select-3" THEN meta_value ELSE '' END) as 'school',
+
+MAX(CASE
+WHEN meta_key = "text-1" THEN meta_value ELSE '' END) as 'other',
+
+MAX(CASE
+WHEN meta_key = "textarea-1" THEN meta_value ELSE '' END) as 'questions'
+
+FROM `wp_frmt_form_entry_meta`
+GROUP BY entry_id
