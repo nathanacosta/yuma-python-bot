@@ -34,9 +34,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
+
 ![UA Yuma Site](./images/demo_desktop.gif)
-![UA Yuma Mobile Site](./images/demo_mobile.gif)
 ![UA Yuma Wallpers](./images/demo_wallpapers.gif)
+
+<h2>Mobile Site<h2>
+<p align="center">
+  <img src="images/demo_mobile.gif">
+</p>
+
 
 ### Built With
 
